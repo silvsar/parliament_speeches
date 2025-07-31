@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Story template</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #232323;
+            color: #fff;
+            text-rendering: optimizeLegibility;
+        }
+
+        .content {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, serif;
+            font-weight: bold;
+            font-size: 2em;
+            line-height: 1.1;
+        }
+
+        .subhead {
+            font-family: 'Lora', Georgia, serif;
+        }
+
+        figcaption {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 0.5em;
+            color: #ccc;
+        }
+
+        iframe,
+        img,
+        video {
+            max-width: 100%;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        ul {
+            margin: 0;
+            padding-bottom: 1em;
+            line-height: 1.6;
+        }
+
+        iframe {
+            padding-bottom: 1.2em;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background: #fffbaf;
+            font-size: 0.85em;
+        }
+
+        .full-width figure {
+            text-align: center;
+        }
+
+        /* margin and font size on mobile */
+        @media (max-width: 480px) {
+            body {
+                font-size: 15px;
+            }
+
+            .content {
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <h1>Finnish Politicians Are Talking Less About Climate Change</h1>
+        </div>
+        <div class="byline">
+            <p>By <a>Sara Silvennoinen</a></p>
+        </div>
+        <p>For these visualizations, I've analyzed plenary speeches made by Finnish politicians in parliament during 2015-2025, scraping data from the official eduskunta.fi website, and analyzing it using Pandas. Using keyword searches related to climate and environmental issues, such as "ilmastonmuutos" (climate change), "luonnon monimuotoisuus" (biodiversity), and "uhanalaiset lajit" (endangered species). I tracked how frequently these topics appeared in parliamentary speeches over time.</p>
+
+
+        <figure>
+            <img src="bilder/speech1.png" alt="Six line graphs displaying the frequency of selected environmental keywords in Finnish parliamentary speeches from 2018 to 2025.">
+            <figcaption>Especially speeches mentioning climate change have declined.</figcaption>
+        </figure>
+
+ <p>The analysis shows that mentions of climate change and environmental concerns have declined in recent years. The outbreak of the COVID-19 pandemic in 2020 and the onset of the war in Ukraine in 2022 shifted parliamentary focus away from some of the environmental issues.</a></p>
+
+        <figure>
+            <img src="bilder/speech2.png" alt="Stacked area chart showing the total number of parliamentary speech mentions for six environmental topics (Climate Change, Carbon Neutral, Natural Diversity, Sustainable Development, Ecological, Endangered Species) from 2018 to 2025.">
+            <figcaption>There's a drop in several of the topics during crisis.</figcaption>
+        </figure>
+
+ <p>The chart below shows which Finnish political parties most frequently mentioned "climate change" in their parliamentary speeches during 2024. The Social Democratic Party leads the discussion, referencing climate change 54 times, followed by the Green League with 40 mentions. Centre Party, Left Alliance, and the Finns Party also address the topic, though less frequently. In contrast, parties such as the Christian Democratic Party and Movement Now make only a handful of references.</a></p>
+
+
+         <figure>
+            <img src="bilder/byparty.png" alt="Bar chart showing the number of speeches mentioning climate change by each political party in the Finnish Parliament. ">
+            <figcaption>Parties spend unequal time on talking about climate change.</figcaption>
+        </figure>
+    
