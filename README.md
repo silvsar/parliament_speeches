@@ -13,13 +13,12 @@ A project to analyze how often Finnish politicians mention climate and environme
 
 - Speeches were scraped from the [Finnish Parliament website (https://www.eduskunta.fi/FI/search/Sivut/Vaskiresults.aspx#).
 - Selenium and BeautifulSoup were used to automate the data collection.
-- See the [data collection notebook]() for code and details.
+- See the [data collection notebook](https://github.com/silvsar/parliament_speeches/blob/main/Puheenvuorot_eduskunnassa.ipynb) for code and details.
 
 ## Data Analysis
 
 - Data was cleaned, keywords identified, and frequencies analyzed by year, party, and politician.
 - Visualizations were produced using Matplotlib.
-- See the [analysis notebook](link-to-your-analysis-notebook) for all details.
 
 ## New Skills & Growth
 
@@ -33,4 +32,4 @@ A project to analyze how often Finnish politicians mention climate and environme
 
 ## Project Page
 
-- [Project page link](link-to-your-project-page)
+- [Project page link]()
